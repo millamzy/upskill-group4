@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #008000;
+    --black: rgb(29, 27, 27);
+
+
+  }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 50px 0px;
+    color:var(--green);
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    color: var(--main-color);
+    
+}
+
+li{
+    list-style: none;
+    color: var(--main-color);
+}
