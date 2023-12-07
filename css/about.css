@@ -7,6 +7,7 @@
     color: var(--green);
 } 
 
+
 .goal{
     font-family: Inter;
     font-size: 36px;
@@ -54,3 +55,5 @@
             margin-top: 10px;
             color: var(--black)
             }
+
+           
