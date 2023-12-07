@@ -15,7 +15,7 @@
     letter-spacing: -0.011em;
     text-align: left;
     margin-left: 45px;
-    color:black
+    color: var(--black)
     
     }
 
@@ -28,7 +28,7 @@
         text-align: left;
         margin-top: 10px;
         margin-left: 45px;
-        color: black;
+        color: var(--black)
         }
 
         .team{
@@ -40,7 +40,7 @@
             text-align: left;
             margin-top: 25px;
             margin-left: 45px;
-            color:black
+            color: var(--black)
             
             }
 
@@ -52,5 +52,5 @@
             letter-spacing: -0.011em;
             text-align: left;
             margin-top: 10px;
-            color: black;
+            color: var(--black)
             }
