@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=8.0">
     <title>checkout Page</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/checkoutPage.css">
@@ -20,6 +20,7 @@
             </ul>
     </nav>
     </header>
+    <div class="wrapper">
 <h2 class="checkout">Checkout</h2>
 
 <div class = "line"><hr> 
@@ -34,13 +35,13 @@
     <div><input type="text" class= "first-input" name="firstname" placeholder="First Name">
     <input type="text" class ="second-input" name="secondname" placeholder="Second Name"></div>
     <div><input type="text" class="all-input" name="address" placeholder="Address"></div>
-    <div><input type="text" class="all-input" name="appointment" placeholder="Appointed (Optional)"></div>
+    <div><input type="text" class="all-input" name="appointment" placeholder="Apartment (Optional)"></div>
     <div><input type="text" class="all-input" name="city" placeholder="City"></div>
     <div><input type="text" class="all-input" name="phone" placeholder="Phone (Optional)"></div>
-<br><br><br><br>
+    <br><br><br><br>
     <div class="container-right">
         <div class="ordersummary">ORDER SUMMARY</div>
-        <div class="leftpic"><img src="#"></div>
+        <div class="leftpic"><img src="../image/potato.png" title="Sweet Potatoes"></div>
         <div class="picname">Big Potato: 4kg</div>
         <div class="picright">4,000</div>
        
@@ -53,17 +54,25 @@
     <div class="dcode">Discount Code</div>
     <div class="button" onclick="alert('Discount code successfully given')">Apply</div>
     
-<div class="line3">
-        <hr>
-</div>
-<div class="stotal">
-    Subtotal
-</div>
-<div class="sprice">
-    4,000
-</div>
-<div class="button-pay"onclick="alert('Payment successfully received, thanks for your patronage')">
-    PAY NOW
+    <div class="line3">
+            <hr>
+    </div> 
+    <div class="stotal">
+        Subtotal
+    </div>
+    <div class="sprice">
+        4,000
+    </div>
+
+    <div class="payoptions">
+        <img src="../image/master.png" title="Master Card">&nbsp;&nbsp;&nbsp;
+        <img src="../image/paypal.png" title="Paypal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="../image/visa.png" title="Visa Card">&nbsp;&nbsp;&nbsp;
+        <img src="../image/american.png" title="American Express">
+    </div>
+    <div class="button-pay"onclick="alert('Payment successfully received, thanks for your patronage')">
+        PAY NOW
+    </div>
 </div>
 </body>
 </html>
