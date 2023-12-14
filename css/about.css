@@ -1,4 +1,129 @@
-.button{
-    background-color: var(--green);
-    color: brown;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.top{
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    color: var(--green);
 } 
+
+.top1{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    text-shadow: rgba(50, 250, 50, 1);
+    color: var(--green);
+
+}
+
+.aboutpic{
+    width: 1200px;
+    height: 515px;
+    margin-top: 55px;
+    margin-left: 131px;
+}
+
+h1{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-top: 20px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    color: var(--black);
+}
+
+h4{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-left: 131px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black)
+}
+
+.feedbackheader {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 131px;
+    margin-top: 25px;
+}
+
+.feedback{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 131px;
+    margin-top: -5px;    
+}
+
+.qualityheader {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 565px;
+    margin-top: -190px;
+}
+.quality{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 561px;
+    margin-top: -5px;   
+}
+
+.trackingheader {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 991px;
+    margin-top: -265px;
+}
+
+.tracking{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: var(--black);
+    margin-left: 991px;
+    margin-top: -5px;   
+}

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feedback-container {
+    background-color: rgb(243, 252, 243);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3.2px;
+}
+
+.feedback-title {
+    padding: 0;
+        padding-top: 8px;
+}
+
+.feedback-head {
+    text-align: center;
+    
+    
+}
+
+
+.feedback-field {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    
+}
+
+.feed-label {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.feed-textarea {
+    font-size: 13px;
+    color: black;
+    padding-top: 10px;
+    font-weight: bold;
+    background-color: rgb(243, 252, 243);   
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.feed-input {
+    background-color: rgb(241, 252, 241);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 420px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.feed-button {
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.feed-btn {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(4, 171, 4);
+    padding: 10px 20px;
+}
+
+.feed-input[type="text"]::placeholder {
+    text-indent: 9px;
+    color: black;
+    font-size: 12px;
+        font-weight: bold;
+}
