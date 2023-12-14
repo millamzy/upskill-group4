@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ body{
 }
 
 .aboutpic{
-    width: 750px;
+    width: 1200px;
     height: 515px;
     margin-top: 55px;
     margin-left: 131px;
@@ -127,15 +127,3 @@ h4{
     margin-left: 991px;
     margin-top: -5px;   
 }
-
-@media (min-width: 600px) and (max-width: 768px) {
-    body {
-      background-color: #de3163;
-    }
-
-    .aboutpic {
-    width: 50%;
-    /* height: 257.5px; */
-    /* margin-top: 55px; */
-    }
-  }
